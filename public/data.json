@@ -5,9 +5,9 @@
         "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
         "category": "us",
-        "featured-img": "1.jpg",
+        "featuredImg": "1.jpg",
         "author": "Jane Doe",
-        "author-img": "jane-doe.jpg"
+        "authorImg": "jane-doe.jpg"
     },
     {
         "id": "2",
@@ -15,9 +15,9 @@
         "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
         "category": "politics",
-        "featured-img": "2.jpg",
+        "featuredImg": "2.jpg",
         "author": "Jane Doe",
-        "author-img": "jane-doe.jpg"
+        "authorImg": "jane-doe.jpg"
     },
     {
         "id": "3",
@@ -25,9 +25,9 @@
         "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
         "category": "tech",
-        "featured-img": "3.jpg",
+        "featuredImg": "3.jpg",
         "author": "Jane Doe",
-        "author-img": "jane-doe.jpg"
+        "authorImg": "jane-doe.jpg"
     },
     {
         "id": "4",
@@ -35,9 +35,9 @@
         "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
         "category": "us",
-        "featured-img": "4.jpg",
+        "featuredImg": "4.jpg",
         "author": "Jane Doe",
-        "author-img": "jane-doe.jpg"
+        "authorImg": "jane-doe.jpg"
     },
     {
         "id": "5",
@@ -45,9 +45,9 @@
         "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
         "category": "us",
-        "featured-img": "5.jpg",
+        "featuredImg": "5.jpg",
         "author": "Jane Doe",
-        "author-img": "jane-doe.jpg"
+        "authorImg": "jane-doe.jpg"
     },
     {
         "id": "6",
@@ -55,8 +55,8 @@
         "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
         "category": "tech",
-        "featured-img": "6.jpg",
+        "featuredImg": "6.jpg",
         "author": "Jane Doe",
-        "author-img": "jane-doe.jpg"
+        "authorImg": "jane-doe.jpg"
     }
 ]

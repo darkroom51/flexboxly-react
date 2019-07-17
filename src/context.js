@@ -6,11 +6,12 @@ const AppConsumer = AppContext.Consumer;
 export default class AppProvider extends Component {
   state = {
     articles: [],
-    isMain: true
+    page: "",
+    menuOpened: false
   };
 
   componentDidMount() {
-    fetch(`${process.env.PUBLIC_URL}data.json`)
+    fetch(`${process.env.PUBLIC_URL}/data.json`)
       .then(res => res.json())
       .then(data => {
         this.setState({ articles: data });
@@ -18,24 +19,27 @@ export default class AppProvider extends Component {
       .catch(err => console.log(err));
   }
 
-  setIsMain = () => {
-    this.setState(prevState => ({isMain: !prevState.isMain}))
+  setPage = page => {
+    this.setState({ page });
+  };
+
+  toggleMenu = () => {
+    this.setState(prevState => ({ menuOpened: !prevState.menuOpened }));
   };
 
   render() {
-    console.log(this.state);
-
     return (
       <AppContext.Provider
         value={{
           ...this.state,
-          setIsMain: this.setIsMain
+          setPage: this.setPage,
+          toggleMenu: this.toggleMenu
         }}
       >
         {this.props.children}
       </AppContext.Provider>
     );
   }
-};
+}
 
 export { AppProvider, AppConsumer, AppContext };

@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useContext } from "react";
+import { AppContext } from "../../context";
 
 const MenuButton = () => {
-  return (
-    <button>H</button>
-  )
-}
+  const { toggleMenu } = useContext(AppContext);
+
+  return <button onClick={toggleMenu}>H</button>;
+};
 
 export default MenuButton;

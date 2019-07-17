@@ -1,18 +1,18 @@
-import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext, useEffect } from "react";
 import { AppContext } from "../context";
+import ArticlesList from "../components/ArticlesList";
+import Tags from "../components/Tags";
 
 const Home = () => {
-  const { articles } = useContext(AppContext);
+  const { articles, setPage } = useContext(AppContext);
+
+  useEffect(() => setPage("home"), []);
 
   return (
     <div>
       HOME PAGE
-      {articles.map(el => (
-        <div key={el.id}>
-          <Link to={`/articles/${el.id}`}>{el.title}</Link>
-        </div>
-      ))}
+      <Tags />
+      <ArticlesList articles={articles} />
     </div>
   );
 };

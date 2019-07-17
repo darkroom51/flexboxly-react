@@ -6,9 +6,7 @@ import Article from "./Article";
 import Navbar from "../components/Navbar/Navbar";
 
 class App extends React.Component {
-
   render() {
-
     return (
       <AppProvider>
         <BrowserRouter>
