@@ -1,25 +1,24 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { AppProvider } from "../context";
+import Home from "./Home";
+import Article from "./Article";
+import Navbar from "../components/Navbar/Navbar";
 
 class App extends React.Component {
-  state = {
-    articles: []
-  }
 
-  componentDidMount() {
-    fetch(`${process.env.PUBLIC_URL}data.json`)
-      .then(res => res.json())
-      .then(data => {
-        this.setState({articles: data});
-      });
-  }
-  
   render() {
+
     return (
-      <div className="App">
-        {this.state.articles.map(article => (
-          <div key={article.id}>{article.title}</div>
-        ))}
-      </div>
+      <AppProvider>
+        <BrowserRouter>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/articles/:id" component={Article} />
+          </Switch>
+        </BrowserRouter>
+      </AppProvider>
     );
   }
 }
