@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "title": "Poverty to empowerment in Gotham",
+        "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
+        "category": "us",
+        "featured-img": "1.jpg",
+        "author": "Jane Doe",
+        "author-img": "jane-doe.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Ant-Man strikes back in Metropolis",
+        "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
+        "category": "politics",
+        "featured-img": "2.jpg",
+        "author": "Jane Doe",
+        "author-img": "jane-doe.jpg"
+    },
+    {
+        "id": "3",
+        "title": "The future of javascript frameworks",
+        "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
+        "category": "tech",
+        "featured-img": "3.jpg",
+        "author": "Jane Doe",
+        "author-img": "jane-doe.jpg"
+    },
+    {
+        "id": "4",
+        "title": "This summer buy a better yacht",
+        "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
+        "category": "us",
+        "featured-img": "4.jpg",
+        "author": "Jane Doe",
+        "author-img": "jane-doe.jpg"
+    },
+    {
+        "id": "5",
+        "title": "5 tips to enlarge your garage",
+        "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
+        "category": "us",
+        "featured-img": "5.jpg",
+        "author": "Jane Doe",
+        "author-img": "jane-doe.jpg"
+    },
+    {
+        "id": "6",
+        "title": "React apps make life easier - yeah right",
+        "tldr": "Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, fringilla nec ex quis, feugiat luctus velit. Aliquam vestibulum libero sit amet orci imperdiet, sed dictum metus cursus. Ut nec nibh enim. Nunc ut cursus arcu, a dictum sapien. Mauris hendrerit risus in justo pellentesque, ac facilisis dui lobortis. Fusce vitae tristique ligula. Donec pharetra tempor dolor, ac bibendum neque faucibus at. Maecenas congue nibh ligula, vitae eleifend ligula sagittis ornare. Integer imperdiet placerat velit, vehicula blandit purus mollis sit amet. Aliquam vel pharetra leo, eu commodo felis. Cras id ultrices justo. Etiam maximus mi nec justo accumsan gravida.",
+        "category": "tech",
+        "featured-img": "6.jpg",
+        "author": "Jane Doe",
+        "author-img": "jane-doe.jpg"
+    }
+]
