@@ -8,6 +8,9 @@ const StyledArticle = styled.article`
   display: flex;
   align-items: flex-start;
   border-top: 1px dashed #eee;
+  @media screen and (min-width: 768px){
+    width: 50%;
+  }
 `;
 
 const StyledContent = styled.div`

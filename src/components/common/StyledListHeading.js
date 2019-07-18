@@ -7,6 +7,15 @@ const StyledListHeading = styled.h2`
   font-size: 1.5em;
   color: ${({ theme }) => theme.mainBlack};
   margin-bottom: 2rem;
+  transition: ${({ theme }) => theme.mainTransition};
+
+
+  a & {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
 `;
 
 export default StyledListHeading;

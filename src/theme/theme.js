@@ -8,7 +8,7 @@ export const theme = {
   testPink: "pink",
   testBlue: "skyblue",
   menuOffset: "6rem",
-  mainTransition: "all 0.3s linear",
+  mainTransition: "all 0.25s linear",
   mainSpacing: "3px",
   lightShadow: "2px 5px 5px 0px rgba(0, 0, 0, 0.3)",
   darkShadow: "4px 10px 5px 0px rgba(0, 0, 0, 0.5)",
@@ -19,6 +19,6 @@ export const theme = {
   mq: {
     small: `@media (min-width: 768px)`,
     desktop: `@media (min-width: 1024px)`,
-    large: `@media(min-width: 1440px)`
+    large: `@media(min-width: 1180px)`
   }
 };
