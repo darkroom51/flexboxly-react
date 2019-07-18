@@ -7,9 +7,16 @@ import StyledListCategory from "../common/StyledListCategory";
 const StyledArticle = styled.article`
   display: flex;
   align-items: flex-start;
-  border-top: 1px dashed #eee;
-  @media screen and (min-width: 768px){
-    width: 50%;
+border-top: 1px dashed ${({theme})=>theme.lineGrey};
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 47%;
+    &:nth-of-type(2n+1) {
+      margin-left: 6%;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 1.2em;
   }
 `;
 
@@ -23,9 +30,14 @@ const StyledImage = styled.img`
   height: 20vw;
   object-fit: cover;
   margin: 2rem 0;
-  @media screen and (min-width: 480px){
+  @media screen and (min-width: 480px) {
     width: 30vw;
     height: auto;
+  }
+  @media screen and (min-width: 768px) {
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
   }
 `;
 

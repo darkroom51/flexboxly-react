@@ -9,7 +9,7 @@ const StyledArticle = styled.article`
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 4rem;
+    margin: 3rem 0 5rem 0;
   }
   @media screen and (min-width: 1024px) {
     font-size: 1.2em;

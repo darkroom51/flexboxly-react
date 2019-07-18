@@ -5,6 +5,7 @@ export const theme = {
   mainGrey: "#757575",
   grey6: "#666",
   grey9: "#999",
+  lineGrey: "#e5e5e5",
   testPink: "pink",
   testBlue: "skyblue",
   menuOffset: "6rem",

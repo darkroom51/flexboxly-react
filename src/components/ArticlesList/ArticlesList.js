@@ -1,10 +1,17 @@
 import React from "react";
+import styled from "styled-components";
 import FeaturedArticle from "./FeaturedArticle";
 import RegularArticle from "./RegularArticle";
 
+const StyledSection = styled.section`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+`;
+
 const ArticlesList = ({ articles }) => {
   return (
-    <section>
+    <StyledSection>
       {articles.map((article, index) => (
         <React.Fragment key={article.id}>
           {index < 1 ? (
@@ -14,7 +21,7 @@ const ArticlesList = ({ articles }) => {
           )}
         </React.Fragment>
       ))}
-    </section>
+    </StyledSection>
   );
 };
 
