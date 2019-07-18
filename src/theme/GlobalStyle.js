@@ -30,7 +30,7 @@ body {
   font-family: "Merriweather", serif;
   color: ${theme.mainBlack};
   background: ${theme.mainWhite};
-  padding-top: ${theme.menuOffset};
+  /* padding-top: ${theme.menuOffset}; */ /*temp wrapper*/
 }
 
 /*temp styles just to speed up everythign*/
@@ -40,6 +40,9 @@ a {
   transition: ${theme.mainTransition};
 }
 main {
+  /*temp wrapper*/
+  max-width: 1180px;
+  margin: 0 auto;
   padding: 0 2rem;
 }
 `;

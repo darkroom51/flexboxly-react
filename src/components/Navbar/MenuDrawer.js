@@ -30,7 +30,7 @@ const StyledDrawer = styled.div`
   box-shadow: ${({ theme }) => theme.lightShadow};
   z-index: 101;
   transition: transform 0.2s linear;
-  transform: translateX(${({ menuOpened }) => (menuOpened ? "0" : "-100%")});
+  transform: translateX(${({ menuOpened }) => (menuOpened ? "0" : "-105%")});
 `;
 
 const StyledTopbar = styled.div`

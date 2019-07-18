@@ -7,7 +7,7 @@ import RightBtn from "./RightBtn";
 import MenuDrawer from "./MenuDrawer";
 
 const StyledHeader = styled.header`
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   padding: 0 20px;
@@ -17,6 +17,9 @@ const StyledHeader = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  /*temp*/
+  max-width: 1180px;
+  margin: 0 auto;
 `;
 
 const Navbar = () => {
