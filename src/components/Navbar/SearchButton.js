@@ -1,7 +1,11 @@
 import React from "react";
+import StyledIconButton from "../common/StyledIconButton";
+import Icon from "../../assets/icons/search.svg";
 
-const Search = () => {
-  return <button>S</button>;
+const SearchButton = () => {
+  return <StyledIconButton>
+    <img src={Icon} alt="Open Search Field" />
+  </StyledIconButton>;
 };
 
-export default Search;
+export default SearchButton;

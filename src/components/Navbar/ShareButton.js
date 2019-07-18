@@ -1,7 +1,11 @@
 import React from "react";
+import StyledIconButton from "../common/StyledIconButton";
+import Icon from "../../assets/icons/share.svg";
 
-const ShareButton = () => {
-  return <button>SH</button>;
+const SearchButton = () => {
+  return <StyledIconButton>
+    <img src={Icon} alt="Open Share Panel" />
+  </StyledIconButton>;
 };
 
-export default ShareButton;
+export default SearchButton;
