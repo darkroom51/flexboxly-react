@@ -10,7 +10,6 @@ const StyledHeader = styled.header`
   position: relative;
   left: 0;
   top: 0;
-  padding: 0 20px;
   width: 100%;
   height: ${({ theme }) => theme.menuOffset};
   background-color: ${({ theme }) => theme.mainWhite};
@@ -18,6 +17,10 @@ const StyledHeader = styled.header`
   justify-content: flex-start;
   align-items: center;
   /*temp wrapper*/
+  padding: 0 0.8rem;
+  @media ${({ theme }) => theme.mq.small} {
+    padding: 0 2.8rem;
+  }
   max-width: 1180px;
   margin: 0 auto;
 `;

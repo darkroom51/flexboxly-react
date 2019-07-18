@@ -13,7 +13,7 @@ const StyledIconButton = styled.button`
   cursor: pointer;
 
   img {
-    width: 62%;
+    width: 70%;
   }
 `;
 
