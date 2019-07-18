@@ -15,11 +15,17 @@ const Article = ({ match }) => {
     authorImg
   } = article;
 
-  useEffect(() => setPage("article"), []);
+  useEffect(() => {
+    setPage("article");
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>
-      <img src="" alt={featuredImg} />
+      <img 
+        src={featuredImg ? require(`../assets/images/${featuredImg}`) : null} 
+        alt={featuredImg} 
+      />
       <p>{category} - someTag</p>
       <h2>{title}</h2>
       <p>{tldr}</p>

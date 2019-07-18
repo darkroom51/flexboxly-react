@@ -6,7 +6,7 @@ const RegularArticle = ({ article }) => {
     <div>
       <p>{article.category}</p>
       <Link to={`/articles/${article.id}`}>{article.title}</Link>
-      <img src="" alt={article.featuredImg} />
+      <img src={require(`../../assets/images/${article.featuredImg}`)} alt={article.featuredImg} />
     </div>
   );
 };

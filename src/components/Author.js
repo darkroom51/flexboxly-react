@@ -3,7 +3,10 @@ import React from "react";
 const Author = ({ name, img }) => {
   return (
     <div>
-      <img src="" alt={img} />
+      <img 
+        src={img ? require(`../assets/images/${img}`) : null} 
+        alt={img} 
+      />
       <p>by {name}</p>
     </div>
   );
