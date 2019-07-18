@@ -4,6 +4,7 @@ import styled from "styled-components";
 import StyledListHeading from "../common/StyledListHeading";
 import StyledListCategory from "../common/StyledListCategory";
 import StyledParagraph from "../common/StyledParagraph";
+import StyledImageLink from "../common/StyledImageLink";
 
 const StyledArticle = styled.article`
   @media screen and (min-width: 768px) {
@@ -32,27 +33,6 @@ const StyledImageContainer = styled.div`
 const StyledImage = styled.img`
   display: block;
   width: 100%;
-`;
-
-const StyledImageLink = styled(Link)`
-  display: block;
-  position: relative;
-
-  &:after {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: ${({ theme }) => theme.mainMotif};
-    transition: ${({ theme }) => theme.mainTransition};
-    opacity: 0;
-  }
-  &:hover:after {
-    opacity: 0.3;
-  }
 `;
 
 const StyledListTLDR = styled(StyledParagraph)`

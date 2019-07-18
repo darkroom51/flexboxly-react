@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import StyledListHeading from "../common/StyledListHeading";
 import StyledListCategory from "../common/StyledListCategory";
+import StyledImageLink from "../common/StyledImageLink";
 
 const StyledArticle = styled.article`
   display: flex;
@@ -29,7 +30,6 @@ const StyledImage = styled.img`
   width: 20vw;
   height: 20vw;
   object-fit: cover;
-  margin: 2rem 0;
   @media screen and (min-width: 480px) {
     width: 30vw;
     height: auto;
@@ -39,6 +39,10 @@ const StyledImage = styled.img`
     height: 10vw;
     object-fit: cover;
   }
+`;
+
+const StyledImageLinkAlt = styled(StyledImageLink)`
+  margin: 2rem 0;
 `;
 
 const StyledListHeadingSmall = styled(StyledListHeading)`
@@ -55,10 +59,12 @@ const RegularArticle = ({ article }) => {
           <StyledListHeadingSmall>{article.title}</StyledListHeadingSmall>
         </Link>
       </StyledContent>
+      <StyledImageLinkAlt to={`/articles/${article.id}`}>
       <StyledImage
         src={require(`../../assets/images/${article.featuredImg}`)}
         alt={article.featuredImg}
       />
+      </StyledImageLinkAlt>
     </StyledArticle>
   );
 };
