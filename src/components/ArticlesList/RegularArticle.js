@@ -10,13 +10,13 @@ const StyledArticle = styled.article`
   align-items: flex-start;
 border-top: 1px dashed ${({theme})=>theme.lineGrey};
   width: 100%;
-  @media screen and (min-width: 768px) {
+  @media ${({ theme }) => theme.mq.small} {
     width: 47%;
     &:nth-of-type(2n+1) {
       margin-left: 6%;
     }
   }
-  @media screen and (min-width: 1024px) {
+  @media ${({ theme }) => theme.mq.medium} {
     font-size: 1.2em;
   }
 `;
@@ -30,11 +30,11 @@ const StyledImage = styled.img`
   width: 20vw;
   height: 20vw;
   object-fit: cover;
-  @media screen and (min-width: 480px) {
+  @media ${({ theme }) => theme.mq.xsmall} {
     width: 30vw;
     height: auto;
   }
-  @media screen and (min-width: 768px) {
+  @media ${({ theme }) => theme.mq.small} {
     width: 10vw;
     height: 10vw;
     object-fit: cover;

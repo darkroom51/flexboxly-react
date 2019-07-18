@@ -44,7 +44,7 @@ main {
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 2rem;
-  @media screen and (min-width: 768px) {
+  @media ${theme.mq.small} {
     padding: 0 4rem;
   }
 }

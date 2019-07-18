@@ -7,25 +7,25 @@ import StyledParagraph from "../common/StyledParagraph";
 import StyledImageLink from "../common/StyledImageLink";
 
 const StyledArticle = styled.article`
-  @media screen and (min-width: 768px) {
+  @media ${({ theme }) => theme.mq.small} {
     display: flex;
     flex-direction: row-reverse;
     margin: 3rem 0 5rem 0;
   }
-  @media screen and (min-width: 1024px) {
+  @media ${({ theme }) => theme.mq.medium} {
     font-size: 1.2em;
   }
 `;
 
 const StyledContent = styled.div`
-  @media screen and (min-width: 768px) {
+  @media ${({ theme }) => theme.mq.small} {
     width: 50%;
     padding-right: 5vw;
   }
 `;
 
 const StyledImageContainer = styled.div`
-  @media screen and (min-width: 768px) {
+  @media ${({ theme }) => theme.mq.small} {
     width: 50%;
   }
 `;
@@ -38,7 +38,7 @@ const StyledImage = styled.img`
 const StyledListTLDR = styled(StyledParagraph)`
   color: ${({ theme }) => theme.mainGrey};
   display: none;
-  @media screen and (min-width: 768px) {
+  @media ${({ theme }) => theme.mq.small} {
     display: block;
   }
 `;

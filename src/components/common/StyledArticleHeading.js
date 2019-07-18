@@ -9,7 +9,7 @@ const StyledArticleHeading = styled.h1`
   font-style: italic;
   color: ${({ theme }) => theme.mainBlack};
   margin-bottom: 2rem;
-  @media screen and (min-width: 768px) {
+  @media ${({ theme }) => theme.mq.small} {
     width: 70%;
   }
 `;

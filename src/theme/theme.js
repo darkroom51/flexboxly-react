@@ -18,8 +18,9 @@ export const theme = {
   light: 400,
   bold: 700,
   mq: {
-    small: `@media (min-width: 768px)`,
-    desktop: `@media (min-width: 1024px)`,
-    large: `@media(min-width: 1180px)`
+    xsmall: `screen and (min-width: 480px)`,
+    small: `screen and (min-width: 768px)`,
+    medium: `screen and (min-width: 1024px)`,
+    large: `screen and(min-width: 1180px)`
   }
 };

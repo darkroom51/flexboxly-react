@@ -20,7 +20,7 @@ const ArticleDetails = ({ article }) => {
 
   const StyledArticleTLDR = styled(StyledParagraph)`
     color: ${({ theme }) => theme.mainGrey};
-    @media screen and (min-width: 768px) {
+    @media ${({ theme }) => theme.mq.small} {
       width: 70%;
     }
   `;
@@ -33,7 +33,7 @@ const ArticleDetails = ({ article }) => {
       font-weight: 700;
       padding: 0.15em 0.1em 0 0;
     }
-    @media screen and (min-width: 768px) {
+    @media ${({ theme }) => theme.mq.small} {
       columns: 2 auto;
       column-gap: 6vh;
     }
@@ -42,7 +42,7 @@ const ArticleDetails = ({ article }) => {
   const StyledImageContainer = styled.div`
     margin: 0 -2rem;
     poistion: relative;
-    @media screen and (min-width: 768px) {
+    @media ${({ theme }) => theme.mq.small} {
       margin: 3rem 0 5rem 0;
     }
   `;
@@ -50,7 +50,7 @@ const ArticleDetails = ({ article }) => {
   const StyledImage = styled.img`
     width: 100%;
     cursor: pointer;
-    @media screen and (min-width: 768px) {
+    @media ${({ theme }) => theme.mq.small} {
       height: 40vh;
       object-fit: cover;
     }
