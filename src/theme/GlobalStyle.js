@@ -3,7 +3,7 @@ import { theme } from "./theme";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,700&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -14,6 +14,11 @@ const GlobalStyle = createGlobalStyle`
 html, body {
   margin: 0;
   padding: 0;
+}
+
+h1, h2, p, ul, li {
+  margin:0;
+  padding:0;
 }
 
 html {
@@ -28,9 +33,17 @@ body {
   padding-top: ${theme.menuOffset};
 }
 
-//temp
-img {
-  width: 100%;
+/*temp styles just to speed up everythign*/
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: ${theme.mainTransition};
+}
+a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 0 2rem;
 }
 `;
 

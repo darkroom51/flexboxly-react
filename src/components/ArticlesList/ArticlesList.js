@@ -4,17 +4,17 @@ import RegularArticle from "./RegularArticle";
 
 const ArticlesList = ({ articles }) => {
   return (
-    <div>
+    <section>
       {articles.map((article, index) => (
-        <div key={article.id}>
+        <React.Fragment key={article.id}>
           {index < 1 ? (
             <FeaturedArticle article={article} />
           ) : (
             <RegularArticle article={article} />
           )}
-        </div>
+        </React.Fragment>
       ))}
-    </div>
+    </section>
   );
 };
 

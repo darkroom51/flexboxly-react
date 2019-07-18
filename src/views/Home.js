@@ -9,11 +9,10 @@ const Home = () => {
   useEffect(() => setPage("home"), []);
 
   return (
-    <div>
-      HOME PAGE
+    <main>
       <Tags />
       <ArticlesList articles={articles} />
-    </div>
+    </main>
   );
 };
 

@@ -1,18 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
+import StyledListHeading from "../common/StyledListHeading";
+import StyledListCategory from "../common/StyledListCategory";
+
+const StyledArticle = styled.article``;
+
+const StyledImage = styled.img`
+  display: block;
+  width: 100%;
+`;
 
 const FeaturedArticle = ({ article }) => {
   return (
-    <div>
+    <StyledArticle>
       <Link to={`/articles/${article.id}`}>
-        <img 
-          src={require(`../../assets/images/${article.featuredImg}`)} 
-          alt={article.featuredImg} 
+        <StyledImage
+          src={require(`../../assets/images/${article.featuredImg}`)}
+          alt={article.title}
         />
       </Link>
-      <p>{article.category}</p>
-      <Link to={`/articles/${article.id}`}>{article.title}</Link>
-    </div>
+      <StyledListCategory>{article.category}</StyledListCategory>
+      <Link to={`/articles/${article.id}`}>
+        <StyledListHeading>{article.title}</StyledListHeading>
+      </Link>
+    </StyledArticle>
   );
 };
 
