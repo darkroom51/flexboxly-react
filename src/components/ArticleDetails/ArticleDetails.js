@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Author from "./Author";
 import StyledListCategory from "../common/StyledListCategory";
+import StyledArticleHeading from "../common/StyledArticleHeading";
 import StyledParagraph from "../common/StyledParagraph";
 
 const ArticleDetails = ({ article }) => {
@@ -17,19 +18,11 @@ const ArticleDetails = ({ article }) => {
 
   const mockupTag = "poverty";
 
-  const StyledArticleHeading = styled.h1`
-    font-family: ${({ theme }) => theme.fontSerif};
-    font-weight: 900;
-    text-transform: capitalize;
-    font-size: 2.1em;
-    line-height: 1.2;
-    font-style: italic;
-    color: ${({ theme }) => theme.mainBlack};
-    margin-bottom: 2rem;
-  `;
-
   const StyledArticleTLDR = styled(StyledParagraph)`
     color: ${({ theme }) => theme.mainGrey};
+    @media screen and (min-width: 768px) {
+      width: 70%;
+    }
   `;
 
   const StyledArticleBody = styled(StyledParagraph)`
@@ -40,16 +33,36 @@ const ArticleDetails = ({ article }) => {
       font-weight: 700;
       padding: 0.15em 0.1em 0 0;
     }
+    @media screen and (min-width: 768px) {
+      columns: 2 auto;
+      column-gap: 6vh;
+    }
   `;
 
   const StyledImageContainer = styled.div`
     margin: 0 -2rem;
     poistion: relative;
+    @media screen and (min-width: 768px) {
+      margin: 3rem 0 5rem 0;
+    }
   `;
 
   const StyledImage = styled.img`
     width: 100%;
     cursor: pointer;
+    @media screen and (min-width: 768px) {
+      height: 40vh;
+      object-fit: cover;
+    }
+  `;
+
+  const StyledMark = styled.span`
+    display: inline-block;
+    margin: 0 0.7rem;
+    color: ${({theme})=>theme.grey9};
+    &:after {
+      content: "¬";
+    }
   `;
 
   return (
@@ -61,7 +74,7 @@ const ArticleDetails = ({ article }) => {
         />
       </StyledImageContainer>
       <StyledListCategory>
-        {category} - {mockupTag}
+        {category} <StyledMark /> {mockupTag}
       </StyledListCategory>
       <StyledArticleHeading>{title}</StyledArticleHeading>
       <StyledArticleTLDR>{tldr}</StyledArticleTLDR>
