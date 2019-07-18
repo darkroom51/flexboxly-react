@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 import { theme } from "./theme";
 
 const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,700&display=swap');
 
 *, *::before, *::after {
@@ -38,9 +38,6 @@ a {
   color: inherit;
   text-decoration: none;
   transition: ${theme.mainTransition};
-}
-a:hover {
-  text-decoration: underline;
 }
 main {
   padding: 0 2rem;
