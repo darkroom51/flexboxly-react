@@ -8,11 +8,11 @@ import StyledImageLink from "../common/StyledImageLink";
 const StyledArticle = styled.article`
   display: flex;
   align-items: flex-start;
-border-top: 1px dashed ${({theme})=>theme.lineGrey};
+  border-top: 1px dashed ${({ theme }) => theme.lineGrey};
   width: 100%;
   @media ${({ theme }) => theme.mq.small} {
     width: 47%;
-    &:nth-of-type(2n+1) {
+    &:nth-of-type(2n + 1) {
       margin-left: 6%;
     }
   }
@@ -60,10 +60,10 @@ const RegularArticle = ({ article }) => {
         </Link>
       </StyledContent>
       <StyledImageLinkAlt to={`/articles/${article.id}`}>
-      <StyledImage
-        src={require(`../../assets/images/${article.featuredImg}`)}
-        alt={article.featuredImg}
-      />
+        <StyledImage
+          src={require(`../../assets/images/${article.featuredImg}`)}
+          alt={article.featuredImg}
+        />
       </StyledImageLinkAlt>
     </StyledArticle>
   );
