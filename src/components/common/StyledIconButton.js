@@ -11,7 +11,7 @@ const StyledIconButton = styled.button`
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  animation-duration: 1s;
+  animation-duration: .5s;
   animation-name: fadein;
 
   @keyframes fadein {

@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { AppContext } from "../context";
 import ArticleDetails from "../components/ArticleDetails/ArticleDetails";
+import StyledMain from "../components/common/StyledMain";
 
 const Article = ({ match }) => {
   const { articles, setPage } = useContext(AppContext);
@@ -12,9 +13,9 @@ const Article = ({ match }) => {
   }, []);
 
   return (
-    <main>
+    <StyledMain>
       <ArticleDetails article={article}/>
-    </main>
+    </StyledMain>
   );
 };
 
