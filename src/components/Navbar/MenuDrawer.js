@@ -38,8 +38,6 @@ const StyledTopbar = styled.div`
   align-items: center;
  `;
 
-
-
 const DummyMenu = styled.ul`
   list-style: none;
   margin-top: 2rem;

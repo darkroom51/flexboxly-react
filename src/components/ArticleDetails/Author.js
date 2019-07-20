@@ -46,7 +46,7 @@ const Author = ({ name, img }) => {
     <StyledAuthor>
       <StyledImage
         src={img ? require(`../../assets/images/${img}`) : null}
-        alt={img}
+        alt={name}
       />
       <StyledAuthorName>
         by <a href="#" rel="author" target="_blank">{name}</a>

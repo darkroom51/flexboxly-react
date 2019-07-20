@@ -61,10 +61,12 @@ const LightBoxOverlay = styled.div`
 `;
 
 const Lightbox = ({ image, alt }) => {
-  let [opened, setOpened] = useState(false);
+  const [opened, setOpened] = useState(false);
+
   const openLightBox = () => {
     return setOpened(true);
   };
+
   const closeLightBox = () => {
     return setOpened(false);
   };
@@ -77,7 +79,11 @@ const Lightbox = ({ image, alt }) => {
         lightBox={opened}
         onClick={openLightBox}
       />
-      <LightBoxImage src={image} alt={alt} lightBox={opened} />
+      <LightBoxImage 
+        src={image} 
+        alt={alt} 
+        lightBox={opened} 
+      />
       <LightBoxOverlay lightBox={opened} onClick={closeLightBox} />
     </>
   );
