@@ -4,6 +4,7 @@ import Author from "./Author";
 import StyledListCategory from "../common/StyledListCategory";
 import StyledArticleHeading from "../common/StyledArticleHeading";
 import StyledParagraph from "../common/StyledParagraph";
+import Lightbox from "./Lightbox";
 
 const ArticleDetails = ({ article }) => {
   const {
@@ -42,24 +43,16 @@ const ArticleDetails = ({ article }) => {
   const StyledImageContainer = styled.div`
     margin: 0 -2rem;
     poistion: relative;
+    overflow: hidden;
     @media ${({ theme }) => theme.mq.small} {
       margin: 3rem 0 5rem 0;
-    }
-  `;
-
-  const StyledImage = styled.img`
-    width: 100%;
-    cursor: pointer;
-    @media ${({ theme }) => theme.mq.small} {
-      height: 40vh;
-      object-fit: cover;
     }
   `;
 
   const StyledMark = styled.span`
     display: inline-block;
     margin: 0 0.7rem;
-    color: ${({theme})=>theme.grey9};
+    color: ${({ theme }) => theme.grey9};
     &:after {
       content: "¬";
     }
@@ -68,8 +61,8 @@ const ArticleDetails = ({ article }) => {
   return (
     <article>
       <StyledImageContainer>
-        <StyledImage
-          src={featuredImg ? require(`../../assets/images/${featuredImg}`) : null}
+        <Lightbox
+          image={featuredImg ? require(`../../assets/images/${featuredImg}`): null}
           alt={title}
         />
       </StyledImageContainer>
